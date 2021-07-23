@@ -1,12 +1,13 @@
 .,html,body{
     margin:0;
     paddding:0;
-    text-align: center;
+    
 }
-body {
-    display:flex; flex-direction:column; justify-content:center;
-    min-height:466vh;
-  }
+header{
+    background-color: powderblue;
+    height: 112px;
+    line-height: 50px;
+}
 .content {
      max-width: 500px;
      margin: auto;
