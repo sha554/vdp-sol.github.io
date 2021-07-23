@@ -1,13 +1,7 @@
-.,html,body{
-    margin:0;
-    paddding:0;
-    
-}
-header{
-    background-color: powderblue;
-    height: 112px;
-    line-height: 50px;
-}
+body {
+    display:flex; flex-direction:column; justify-content:center;
+    min-height:200vh;
+  }
 .content {
      max-width: 500px;
      margin: auto;
