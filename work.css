@@ -1,6 +1,5 @@
 body {
     display:flex; flex-direction:column; justify-content:center;
-    min-height:470vh;
   }
 .content {
      max-width: 500px;
