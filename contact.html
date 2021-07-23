@@ -1,0 +1,114 @@
+<html>
+    <head>
+        <title> VDP Solutions Pvt Ltd</title>
+        <link rel= "stylesheet" href= "contact.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+        <div class= "content">
+            <div class= "row"> 
+               <a href="" class="logo">
+ <img src= "logo.jpg"  height="100%" width="10%"alt="logo"> </a>
+               <nav>
+                   <h2>
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="services.html">Services</a></li>
+                       <li><a href="contact.html">Contact Us</a></li>
+                       <li><a href="work.html">Work</a></li>
+                   </ul>
+                   </h2>
+               </nav>
+            </div>
+        </div>
+        </header>
+
+<!--contact us-->
+<br>
+<br>
+<br>
+<div class="container">
+    <form action="">
+      <h1>Your connection to VDP solutions</h1> 
+      <p><strong>If you have any questions or need help, 
+    please fill out the form below. <br>
+    We do our best to respond within 1 business day.</strong></p>
+    <br>
+  
+      <label for="fname">Name</label>
+      <input type="text" id="name"  placeholder="Your name..">
+  
+      <label for="phoneno">Phone No</label>
+      <br>
+      <input type="tel" id="phoneno"  placeholder="Your phone no..">
+      <br>
+    
+      <label for="emailid">Email </label>
+      <br>
+      
+      <input type="email" id="email" name="emailid" placeholder="Your email id..">
+      <br>
+    
+      <label for="country">Country</label>
+      <select id="country" name="country">
+        <option value="australia">India</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+        <option value="Bangladesh">Bangladesh</option>
+      </select>
+  
+      <label for="subject">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write your meassage here.." style="height:150px"></textarea>
+     
+
+    <centre>
+        <div class="content">
+            <button type="button"><a href="thank.html">Submit</a></button>
+        </div>
+    </centre>
+  
+    </form>
+    
+    <!--whatsapp logo-->
+    <script>
+      var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?55046';
+      var s = document.createElement('script');
+      s.type = 'text/javascript';
+      s.async = true;
+      s.src = url;
+      var options = {
+    "enabled":true,
+    "chatButtonSetting":{
+        "backgroundColor":"#4dc247",
+        "ctaText":"Message Us",
+        "borderRadius":"25",
+        "marginLeft":"0",
+        "marginBottom":"50",
+        "marginRight":"50",
+        "position":"right",
+    },
+    "brandSetting":{
+        "brandName":"VDP Solutions",
+        "brandSubTitle":"Typically replies within a day",
+        "brandImg":"https://live.staticflickr.com/8821/17074861125_399f3f78a4_n.jpg",
+        "welcomeText":"Hi there!\nHow can I help you?",
+        "messageText":"Hello, I have a question about",
+        "backgroundColor":"#0a5f54",
+        "ctaText":"Start Chat",
+        "borderRadius":"25",
+        "autoShow":false,
+        "phoneNumber":"6000030000"
+    }
+  };
+      s.onload = function() {
+          CreateWhatsappChatWidget(options);
+      };
+      var x = document.getElementsByTagName('script')[0];
+      x.parentNode.insertBefore(s, x);
+  </script>
+  
+  </div>
+  </body>
+  </html>
+  
