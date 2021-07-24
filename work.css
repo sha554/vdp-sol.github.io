@@ -1,11 +1,10 @@
 .,html,body{
-  margin:0;
-  paddding:0;
-}
-header{
-    background-color: powderblue;
-    height: 120px;
-    line-height: 120px;
+  margin:0px;
+  paddding:0px;
+  display:flex; 
+  flex-direction:column; 
+  justify-content:center;
+  min-height:466px;
 }
 header{
     background-color: powderblue;
