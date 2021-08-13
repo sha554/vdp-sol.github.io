@@ -62,11 +62,6 @@ hr{
     margin: 0;
     padding: 0;
   }
-  body{
-    display: flex;
-    height: 100vh;
-  }
-  
   .rev-section{
     margin: auto;
     padding: 0 1rem;
